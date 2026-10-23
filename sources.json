@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-23",
-  "automatic_collection_enabled": false,
-  "selection_note": "Fontes 1 a 33 aprovadas pelo usuário. Fontes 34 a 40 excluídas. A aprovação da fonte não significa que a coleta já esteja configurada.",
+  "automatic_collection_enabled": true,
+  "selection_note": "Fontes 1 a 33 aprovadas; fontes 34 a 40 excluídas. Coleta periódica de feeds e páginas públicas das fontes aprovadas. Estado e falhas são publicados em data/status.json.",
   "sources": [
     {
       "selection_number": 1,
@@ -14,7 +14,10 @@
       "url": "https://openai.com/news/",
       "description": "ChatGPT, modelos, agentes, ferramentas e pesquisas.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://openai.com/news/rss.xml"
+      ]
     },
     {
       "selection_number": 2,
@@ -26,7 +29,9 @@
       "url": "https://www.anthropic.com/news",
       "description": "Claude, Claude Code, agentes e pesquisas.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [],
+      "article_path_pattern": "/news/[^/?#]+/?$"
     },
     {
       "selection_number": 3,
@@ -38,7 +43,10 @@
       "url": "https://deepmind.google/blog/",
       "description": "Gemini, modelos de imagem e vídeo e avanços científicos.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://deepmind.google/blog/rss.xml"
+      ]
     },
     {
       "selection_number": 4,
@@ -50,7 +58,10 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/",
       "description": "Aplicações de IA nos produtos e serviços do Google.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://blog.google/technology/ai/rss/"
+      ]
     },
     {
       "selection_number": 5,
@@ -62,7 +73,9 @@
       "url": "https://ai.meta.com/blog/",
       "description": "Modelos, pesquisas e ferramentas de IA da Meta.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [],
+      "article_path_pattern": "/blog/[^/?#]+/?$"
     },
     {
       "selection_number": 6,
@@ -74,7 +87,10 @@
       "url": "https://huggingface.co/blog",
       "description": "Modelos abertos, ferramentas e aplicações práticas.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://huggingface.co/blog/feed.xml"
+      ]
     },
     {
       "selection_number": 7,
@@ -86,7 +102,9 @@
       "url": "https://mistral.ai/news/",
       "description": "Modelos, assistentes e ferramentas para desenvolvedores.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [],
+      "article_path_pattern": "/news/[^/?#]+/?$"
     },
     {
       "selection_number": 8,
@@ -98,7 +116,14 @@
       "url": "https://qwen.ai/",
       "description": "Modelos da família Qwen e seus lançamentos.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://qwenlm.github.io/index.xml"
+      ],
+      "article_path_pattern": "/blog/[^/?#]+/?$",
+      "alternate_pages": [
+        "https://qwenlm.github.io/"
+      ]
     },
     {
       "selection_number": 9,
@@ -110,7 +135,10 @@
       "url": "https://blogs.nvidia.com/",
       "description": "IA local, modelos, GPUs e infraestrutura.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://blogs.nvidia.com/feed/"
+      ]
     },
     {
       "selection_number": 10,
@@ -122,7 +150,10 @@
       "url": "https://news.microsoft.com/source/topics/ai/",
       "description": "Aplicações, produtos e iniciativas de IA da Microsoft.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://news.microsoft.com/source/topics/ai/feed/"
+      ]
     },
     {
       "selection_number": 11,
@@ -134,7 +165,10 @@
       "url": "https://github.blog/",
       "description": "Copilot, novidades do GitHub, projetos e desenvolvimento.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://github.blog/feed/"
+      ]
     },
     {
       "selection_number": 12,
@@ -146,7 +180,10 @@
       "url": "https://code.visualstudio.com/blogs/",
       "description": "Novidades do editor e integração com agentes.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://code.visualstudio.com/feed.xml"
+      ]
     },
     {
       "selection_number": 13,
@@ -158,7 +195,10 @@
       "url": "https://devblogs.microsoft.com/",
       "description": "Ferramentas de programação, automação e plataformas.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://devblogs.microsoft.com/feed/"
+      ]
     },
     {
       "selection_number": 14,
@@ -170,7 +210,10 @@
       "url": "https://blog.mozilla.org/en/",
       "description": "Firefox, privacidade e tecnologias da web.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://blog.mozilla.org/en/feed/"
+      ]
     },
     {
       "selection_number": 15,
@@ -182,7 +225,10 @@
       "url": "https://www.docker.com/blog/",
       "description": "Containers, ambientes locais e ferramentas para agentes.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://www.docker.com/blog/feed/"
+      ]
     },
     {
       "selection_number": 16,
@@ -194,7 +240,10 @@
       "url": "https://blog.cloudflare.com/",
       "description": "Hospedagem, segurança, infraestrutura e ferramentas de IA.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://blog.cloudflare.com/rss/"
+      ]
     },
     {
       "selection_number": 17,
@@ -206,7 +255,10 @@
       "url": "https://www.linuxfoundation.org/blog",
       "description": "Software livre, projetos abertos e padrões tecnológicos.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://www.linuxfoundation.org/blog/rss.xml"
+      ]
     },
     {
       "selection_number": 18,
@@ -218,7 +270,10 @@
       "url": "https://www.bleepingcomputer.com/",
       "description": "Ataques, vazamentos, golpes e falhas em softwares.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://www.bleepingcomputer.com/feed/"
+      ]
     },
     {
       "selection_number": 19,
@@ -230,7 +285,10 @@
       "url": "https://thehackernews.com/",
       "description": "Vulnerabilidades, malware e incidentes de segurança.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://feeds.feedburner.com/TheHackersNews"
+      ]
     },
     {
       "selection_number": 20,
@@ -242,7 +300,10 @@
       "url": "https://krebsonsecurity.com/",
       "description": "Investigações sobre fraudes e crime digital.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://krebsonsecurity.com/feed/"
+      ]
     },
     {
       "selection_number": 21,
@@ -254,7 +315,10 @@
       "url": "https://www.cisa.gov/",
       "description": "Comunicados oficiais e vulnerabilidades exploradas.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+      ]
     },
     {
       "selection_number": 22,
@@ -266,7 +330,12 @@
       "url": "https://cert.br/",
       "description": "Orientações, incidentes e prevenção de golpes no Brasil.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://www.nic.br/noticias/feed.rss"
+      ],
+      "article_path_pattern": "/(noticias|news|alertas)/[^?#]+",
+      "required_keyword": "cert.br"
     },
     {
       "selection_number": 23,
@@ -278,7 +347,11 @@
       "url": "https://blog.google/security/",
       "description": "Pesquisas, proteções e novidades de segurança do Google.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://blog.google/security/rss/",
+        "https://security.googleblog.com/feeds/posts/default"
+      ]
     },
     {
       "selection_number": 24,
@@ -290,7 +363,10 @@
       "url": "https://tecnoblog.net/",
       "description": "Softwares, internet, IA, privacidade e telecomunicações.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://tecnoblog.net/feed/"
+      ]
     },
     {
       "selection_number": 25,
@@ -302,7 +378,10 @@
       "url": "https://canaltech.com.br/",
       "description": "Aplicativos, IA, dispositivos e ciência.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://canaltech.com.br/rss/"
+      ]
     },
     {
       "selection_number": 26,
@@ -314,7 +393,10 @@
       "url": "https://www.tecmundo.com.br/",
       "description": "Tecnologia, softwares, segurança e lançamentos.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://rss.tecmundo.com.br/feed"
+      ]
     },
     {
       "selection_number": 27,
@@ -326,7 +408,10 @@
       "url": "https://olhardigital.com.br/",
       "description": "IA, inovação, segurança, ciência e espaço.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://olhardigital.com.br/feed/"
+      ]
     },
     {
       "selection_number": 28,
@@ -338,7 +423,11 @@
       "url": "https://macmagazine.com.br/",
       "description": "iPhone, iOS, Mac, aplicativos e ecossistema Apple.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://macmagazine.com.br/feed/",
+        "https://feeds.feedburner.com/blogmacmagazine"
+      ]
     },
     {
       "selection_number": 29,
@@ -350,7 +439,10 @@
       "url": "https://manualdousuario.net/",
       "description": "Vida digital, privacidade e software livre.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://manualdousuario.net/feed/"
+      ]
     },
     {
       "selection_number": 30,
@@ -362,7 +454,10 @@
       "url": "https://arstechnica.com/",
       "description": "Explicações técnicas sobre softwares, IA, segurança e ciência.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://feeds.arstechnica.com/arstechnica/index"
+      ]
     },
     {
       "selection_number": 31,
@@ -374,7 +469,10 @@
       "url": "https://www.theverge.com/",
       "description": "IA, grandes empresas, produtos e impactos da tecnologia.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://www.theverge.com/rss/index.xml"
+      ]
     },
     {
       "selection_number": 32,
@@ -386,7 +484,10 @@
       "url": "https://techcrunch.com/",
       "description": "Startups, novas ferramentas, aplicativos e negócios de IA.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://techcrunch.com/feed/"
+      ]
     },
     {
       "selection_number": 33,
@@ -398,7 +499,10 @@
       "url": "https://www.technologyreview.com/",
       "description": "Análises sobre IA, pesquisa e impactos sociais da tecnologia.",
       "approved": true,
-      "collection_status": "not_configured"
+      "collection_status": "configured",
+      "feeds": [
+        "https://www.technologyreview.com/feed/"
+      ]
     }
   ],
   "excluded_sources": [
@@ -451,5 +555,11 @@
       "scope": "revistapesquisa.fapesp.br",
       "approved": false
     }
-  ]
+  ],
+  "schedule": {
+    "cron": "17 */3 * * *",
+    "timezone": "UTC",
+    "interval_hours": 3
+  },
+  "homepage_limit": 60
 }

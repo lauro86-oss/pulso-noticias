@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bdc7b775ab8d2106278d",
+    "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "title": "Agent Skills passa para a Agentic AI Foundation",
+    "summary": "A Anthropic anunciou a doação do padrão aberto Agent Skills à fundação. A proposta é permitir que agentes recebam conhecimentos e fluxos de trabalho reutilizáveis.",
+    "published_at": "2026-10-22",
+    "first_seen_at": "2026-10-23T19:15:58+00:00",
+    "source_id": "anthropic",
+    "source": "Anthropic",
+    "category": "Inteligência artificial",
+    "editorial_seed": true
+  },
+  {
+    "id": "a45f5dfbc3465c866620",
+    "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "title": "Copilot no Visual Studio ganha novas formas de explorar pull requests",
+    "summary": "O pacote de novidades inclui análise de pull requests pelo Git agent, avanços no uso de modelos próprios e uma ação para corrigir pacotes NuGet vulneráveis.",
+    "published_at": "2026-10-22",
+    "first_seen_at": "2026-10-23T19:15:58+00:00",
+    "source_id": "github",
+    "source": "GitHub",
+    "category": "GitHub",
+    "editorial_seed": true
+  },
+  {
+    "id": "426881f94b221c5a8d72",
+    "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates",
+    "title": "Firefox bloqueia certificados comprometidos da eMudhra",
+    "summary": "A Mozilla revogou oito certificados intermediários e publicou atualizações do Firefox. Em 21 de outubro, uma correção adicional para Android ajustou a aplicação da lista de bloqueio.",
+    "published_at": "2026-10-20",
+    "first_seen_at": "2026-10-23T19:15:58+00:00",
+    "source_id": "mozilla",
+    "source": "Mozilla",
+    "category": "Segurança",
+    "editorial_seed": true
+  },
+  {
+    "id": "cdb1d51fae0431106fed",
+    "url": "https://www.anthropic.com/claude-haiku-5-5",
+    "title": "Claude Haiku 5.5 chega com foco em velocidade e tarefas de alto volume",
+    "summary": "Segundo a Anthropic, o novo modelo pequeno atende trabalhos como resumos, classificação e consultas. A empresa também anunciou redução no preço de leitura de cache do Sonnet 5.5.",
+    "published_at": "2026-10-07",
+    "first_seen_at": "2026-10-23T19:15:58+00:00",
+    "source_id": "anthropic",
+    "source": "Anthropic",
+    "category": "Lançamentos de modelos",
+    "editorial_seed": true
+  },
+  {
+    "id": "d2f4c2d99fe6839a3169",
+    "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+    "title": "GitHub apresenta firewall de pacotes em prévia pública",
+    "summary": "A ferramenta verifica metadados e downloads antes da instalação. A prévia atende clientes Enterprise Cloud e, inicialmente, oferece suporte a pacotes npm.",
+    "published_at": "2026-10-20",
+    "first_seen_at": "2026-10-23T19:15:58+00:00",
+    "source_id": "github",
+    "source": "GitHub",
+    "category": "Segurança",
+    "editorial_seed": true
+  },
+  {
+    "id": "5a34c56f93457b06d55b",
+    "url": "https://blog.mozilla.org/sumo/2026/08/19/firefox-new-release-cadence-and-what-to-expect",
+    "title": "Firefox adota ciclo de lançamentos a cada duas semanas",
+    "summary": "A Mozilla explicou que a nova cadência começa com o Firefox 155, em setembro. O objetivo é entregar correções e recursos concluídos com mais previsibilidade.",
+    "published_at": "2026-08-19",
+    "first_seen_at": "2026-10-23T19:15:58+00:00",
+    "source_id": "mozilla",
+    "source": "Mozilla",
+    "category": "Softwares",
+    "editorial_seed": true
+  }
+]

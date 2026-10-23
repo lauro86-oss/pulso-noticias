@@ -1,0 +1,70 @@
+name: Atualizar PULSO
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/collect.yml'
+      - 'scripts/**'
+      - 'assets/**'
+      - 'templates/**'
+      - 'sources.json'
+      - 'tests/**'
+
+concurrency:
+  group: pulso-collection
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Conferir integridade da coleta
+        run: python3 -m unittest discover -s tests -v
+      - name: Consultar fontes aprovadas
+        run: python3 scripts/collect.py
+      - name: Gerar páginas com histórico preservado
+        run: python3 scripts/build.py
+      - name: Validar JavaScript
+        run: node --check assets/app.js
+      - name: Salvar histórico no repositório
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data index.html fontes.html arquivo*.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualiza notícias e preserva arquivo do PULSO'
+            git push origin HEAD:main
+          fi
+      - name: Preparar publicação
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+          retention-days: 1
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
