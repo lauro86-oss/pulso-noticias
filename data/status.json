@@ -1,6 +1,6 @@
 {
-  "last_attempt_at": "2026-10-31T05:52:59+00:00",
-  "last_success_at": "2026-10-31T05:52:59+00:00",
+  "last_attempt_at": "2026-10-31T12:41:34+00:00",
+  "last_success_at": "2026-10-31T12:41:34+00:00",
   "schedule": {
     "cron": "17 */3 * * *",
     "timezone": "UTC",
@@ -9,8 +9,8 @@
   "approved_sources": 33,
   "successful_sources": 31,
   "unavailable_sources": 2,
-  "new_articles": 14,
-  "total_articles": 1388,
+  "new_articles": 10,
+  "total_articles": 1398,
   "sources": {
     "anthropic": {
       "state": "ok",
@@ -18,10 +18,10 @@
       "endpoint": "https://www.anthropic.com/news",
       "error": null,
       "name": "Anthropic",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 66,
       "accepted": 19,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "ars-technica": {
       "state": "ok",
@@ -29,10 +29,10 @@
       "endpoint": "https://feeds.arstechnica.com/arstechnica/index",
       "error": null,
       "name": "Ars Technica",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 20,
       "accepted": 9,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "bleepingcomputer": {
       "state": "ok",
@@ -40,10 +40,10 @@
       "endpoint": "https://www.bleepingcomputer.com/feed/",
       "error": null,
       "name": "BleepingComputer",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 15,
       "accepted": 15,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "canaltech": {
       "state": "ok",
@@ -51,10 +51,10 @@
       "endpoint": "https://canaltech.com.br/rss/",
       "error": null,
       "name": "Canaltech",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 50,
-      "accepted": 19,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "accepted": 17,
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "cert-br": {
       "state": "ok",
@@ -62,10 +62,10 @@
       "endpoint": "https://www.nic.br/noticias/feed.rss",
       "error": null,
       "name": "CERT.br",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 1,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "cisa": {
       "state": "ok",
@@ -73,10 +73,10 @@
       "endpoint": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "error": null,
       "name": "CISA",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 30,
       "accepted": 29,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "cloudflare": {
       "state": "ok",
@@ -84,10 +84,10 @@
       "endpoint": "https://blog.cloudflare.com/rss/",
       "error": null,
       "name": "Cloudflare Blog",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 20,
       "accepted": 20,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "deepmind": {
       "state": "unavailable",
@@ -95,7 +95,7 @@
       "endpoint": null,
       "error": "ParseError: not well-formed (invalid token): line 1, column 0; Página pública sem notícias extraíveis",
       "name": "Google DeepMind",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 0,
       "accepted": 0,
       "last_success_at": "2026-10-30T18:03:46+00:00"
@@ -106,10 +106,10 @@
       "endpoint": "https://www.docker.com/feed/",
       "error": null,
       "name": "Docker Blog",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 10,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "github": {
       "state": "ok",
@@ -117,10 +117,10 @@
       "endpoint": "https://github.blog/feed/",
       "error": null,
       "name": "GitHub",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 10,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "google-ai": {
       "state": "ok",
@@ -128,10 +128,10 @@
       "endpoint": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "error": null,
       "name": "Google Blog — IA",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 20,
       "accepted": 20,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "google-security": {
       "state": "ok",
@@ -139,10 +139,10 @@
       "endpoint": "https://blog.google/security/rss/",
       "error": null,
       "name": "Google Security Blog",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 20,
       "accepted": 20,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "hugging-face": {
       "state": "ok",
@@ -150,10 +150,10 @@
       "endpoint": "https://huggingface.co/blog/feed.xml",
       "error": null,
       "name": "Hugging Face",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 894,
       "accepted": 40,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "krebs": {
       "state": "ok",
@@ -161,10 +161,10 @@
       "endpoint": "https://krebsonsecurity.com/feed/",
       "error": null,
       "name": "KrebsOnSecurity",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 10,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "linux-foundation": {
       "state": "ok",
@@ -172,10 +172,10 @@
       "endpoint": "https://www.linuxfoundation.org/blog/rss.xml",
       "error": null,
       "name": "Linux Foundation",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 10,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "macmagazine": {
       "state": "ok",
@@ -183,10 +183,10 @@
       "endpoint": "https://macmagazine.com.br/feed/",
       "error": null,
       "name": "MacMagazine",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 20,
-      "accepted": 17,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "accepted": 18,
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "manual-do-usuario": {
       "state": "ok",
@@ -194,10 +194,10 @@
       "endpoint": "https://manualdousuario.net/feed/",
       "error": null,
       "name": "Manual do Usuário",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 15,
-      "accepted": 10,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "accepted": 11,
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "meta-ai": {
       "state": "ok",
@@ -205,10 +205,10 @@
       "endpoint": "https://ai.meta.com/blog/",
       "error": null,
       "name": "Meta AI",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 5,
       "accepted": 5,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "microsoft-ai": {
       "state": "ok",
@@ -216,10 +216,10 @@
       "endpoint": "https://news.microsoft.com/source/topics/ai/feed/",
       "error": null,
       "name": "Microsoft — IA",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 10,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "microsoft-dev": {
       "state": "ok",
@@ -227,10 +227,10 @@
       "endpoint": "https://devblogs.microsoft.com/feed/",
       "error": null,
       "name": "Microsoft Dev Blogs",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 10,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "mistral": {
       "state": "ok",
@@ -238,10 +238,10 @@
       "endpoint": "https://mistral.ai/news/rss",
       "error": null,
       "name": "Mistral AI",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 93,
       "accepted": 40,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "mit-tech-review": {
       "state": "ok",
@@ -249,10 +249,10 @@
       "endpoint": "https://www.technologyreview.com/feed/",
       "error": null,
       "name": "MIT Technology Review",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
       "accepted": 7,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "mozilla": {
       "state": "ok",
@@ -260,10 +260,10 @@
       "endpoint": "https://blog.mozilla.org/en/feed/",
       "error": null,
       "name": "Mozilla",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 20,
       "accepted": 20,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "nvidia": {
       "state": "ok",
@@ -271,10 +271,10 @@
       "endpoint": "https://blogs.nvidia.com/feed/",
       "error": null,
       "name": "NVIDIA Blog",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 18,
       "accepted": 18,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "olhar-digital": {
       "state": "ok",
@@ -282,10 +282,10 @@
       "endpoint": "https://olhardigital.com.br/feed/",
       "error": null,
       "name": "Olhar Digital",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
-      "accepted": 5,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "accepted": 2,
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "openai": {
       "state": "ok",
@@ -293,10 +293,10 @@
       "endpoint": "https://openai.com/news/rss.xml",
       "error": null,
       "name": "OpenAI",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 1341,
       "accepted": 40,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "qwen": {
       "state": "unavailable",
@@ -304,7 +304,7 @@
       "endpoint": null,
       "error": "HTTPError: HTTP Error 404: Not Found; Página pública sem notícias extraíveis",
       "name": "Qwen",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 0,
       "accepted": 0,
       "last_success_at": null
@@ -315,10 +315,10 @@
       "endpoint": "https://techcrunch.com/feed/",
       "error": null,
       "name": "TechCrunch",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 20,
       "accepted": 14,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "tecmundo": {
       "state": "ok",
@@ -326,10 +326,10 @@
       "endpoint": "https://rss.tecmundo.com.br/feed",
       "error": null,
       "name": "TecMundo",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 50,
-      "accepted": 12,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "accepted": 11,
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "tecnoblog": {
       "state": "ok",
@@ -337,10 +337,10 @@
       "endpoint": "https://tecnoblog.net/feed/",
       "error": null,
       "name": "Tecnoblog",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 50,
       "accepted": 38,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "the-hacker-news": {
       "state": "ok",
@@ -348,10 +348,10 @@
       "endpoint": "https://feeds.feedburner.com/TheHackersNews",
       "error": null,
       "name": "The Hacker News",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 50,
       "accepted": 40,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "the-verge": {
       "state": "ok",
@@ -359,10 +359,10 @@
       "endpoint": "https://www.theverge.com/rss/index.xml",
       "error": null,
       "name": "The Verge",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 10,
-      "accepted": 7,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "accepted": 6,
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     },
     "vscode": {
       "state": "ok",
@@ -370,10 +370,10 @@
       "endpoint": "https://code.visualstudio.com/feed.xml",
       "error": null,
       "name": "Visual Studio Code",
-      "checked_at": "2026-10-31T05:52:59+00:00",
+      "checked_at": "2026-10-31T12:41:34+00:00",
       "received": 47,
       "accepted": 40,
-      "last_success_at": "2026-10-31T05:52:59+00:00"
+      "last_success_at": "2026-10-31T12:41:34+00:00"
     }
   }
 }
